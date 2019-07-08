@@ -1,0 +1,46 @@
+{
+  "name": "WEBPACK4-PLUS-BOOTSTRAP-STARTERKIT",
+  "version": "1.0.0",
+  "description": "Simple webpack4 workflow for multibrowser compatible webapplications including live-dev-server (and hotmodule), fully customizable bootstrap 4.0 babel compiling and entrypoints as easy-in-use starting point to implement frameworks such as react, vue or angular into your devchain.",
+  "main": "index.js",
+  "scripts": {
+    "likebob": "npx webpack --config webpack.config.prod.js --mode=production",
+    "thewatcher": "npx webpack --watch",
+    "runboyrun": "webpack-dev-server"
+  },
+  "keywords": [
+    "webpack 4",
+    "ES6",
+    "babel",
+    "webpack-live-env",
+    "bootstrap"
+  ],
+  "author": "APEMENDelights, Phil",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "babel-preset-minify": "^0.5.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
