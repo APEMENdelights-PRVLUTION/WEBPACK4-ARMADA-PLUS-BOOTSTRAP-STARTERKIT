@@ -14,6 +14,9 @@ Simple webpack4 workflow for multibrowser compatible webapplications including l
 > ### The kit is production ready.
 
 ## GET STARTED
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/APEMENdelights-PRVLUTION/WEBPACK4-PLUS-BOOTSTRAP-STARTERKIT.svg)](https://greenkeeper.io/)
+
 1. Clone the project using `git clone`
 2. Go to the project root directory using `cd yourprojectname`
 3. Run `npm install` to setup node_modules
